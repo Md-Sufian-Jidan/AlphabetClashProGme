@@ -8,7 +8,7 @@ function showElementId(elementId){
     element.classList.remove('hidden');
 }
 
-function addBackgroundById(elementId){
+function setBackgroundById(elementId){
     const element = document.getElementById(elementId);
     element.classList.add('bg-[#FFA500]');
 }
